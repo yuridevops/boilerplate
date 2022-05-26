@@ -1,6 +1,18 @@
 {
-  "name": "template",
+  "name": "frete-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "keywords": [
+    "react",
+    "create-react-app",
+    "frete"
+  ],
+  "description": "The base template for frete.com react based projects.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
