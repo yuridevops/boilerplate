@@ -25,7 +25,8 @@
   "rules": {
     "semi": ["error", "never"],
     "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-    "@typescript-eslint/no-misused-promises": ["error", { "checksVoidReturn": false }]
+    "@typescript-eslint/no-misused-promises": ["error", { "checksVoidReturn": false }],
+    "react/react-in-jsx-scope": "off"
   },
   "settings": {
     "import/parsers": {
@@ -37,9 +38,5 @@
       }
     }
   },
-  "ignorePatterns": [
-    "src/utils/test-utils.jsx",
-    "src/utils/setupTests.js",
-    "config-overrides.js"
-  ]
+  "ignorePatterns": ["src/utils/test-utils.jsx", "src/utils/setupTests.js", "config-overrides.js"]
 }

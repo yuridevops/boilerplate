@@ -51,17 +51,17 @@
       "coverageReporters": ["html", "text", "text-summary", "cobertura"],
       "coverageThreshold": {
         "global": {
-          "branches": 40,
-          "functions": 50,
-          "lines": 47,
-          "statements": 47
+          "branches": 70,
+          "functions": 70,
+          "lines": 70,
+          "statements": 70
         }
       }
     },
     "scripts": {
       "start": "react-app-rewired start",
       "build": "react-app-rewired build",
-      "test": "yarn jest --watchAll=false --silent --verbose --passWithNoTests",
+      "test": "yarn jest --watchAll=false --silent --verbose",
       "jest": "react-app-rewired test --passWithNoTests",
       "prepare": "husky install"
     },

@@ -1,10 +1,10 @@
 {
-  "name": "cra-template-frete-boilerplate",
-  "version": "1.0.4",
+  "name": "cra-template-fretebras",
+  "version": "1.0.0",
   "keywords": [
     "react",
     "create-react-app",
-    "frete"
+    "fretebras"
   ],
   "description": "The base template for frete.com react based projects.",
   "license": "MIT",
