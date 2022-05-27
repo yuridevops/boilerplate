@@ -1,6 +1,6 @@
 {
-  "name": "frete-boilerplate",
-  "version": "1.0.0",
+  "name": "cra-template-frete-boilerplate",
+  "version": "1.0.4",
   "keywords": [
     "react",
     "create-react-app",
