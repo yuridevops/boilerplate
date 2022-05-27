@@ -1,16 +1,10 @@
 # **Introduction**
 
-This is a boilerplate to help the creation of react based projects at frete.com.
+This is a create-react-app template to help the creation of react based projects at frete.com.
 
 # **Quickstart**
 
 #### Installing project
-
-Clone this project by running:
-
-```
-git clone https://github.com/frete-com/boilerplate.git
-```
 
 - Install [Node 14.17.0](https://nodejs.org/en/blog/release/v14.17.0/)
 
@@ -22,25 +16,23 @@ This package and other packages in this monorepo uses yarn to manage dependencie
 
 This repository contains private packages, to get install dependencies correctly
 
-create a file named `.npmrc` with
+Create a file named `.npmrc` in your OS root folder with
 
 ```
 //registry.npmjs.org/:_authToken={YOUR_TOKEN}
 ```
 
-replace `{YOUR_TOKEN}` for Access Token
+Replace `{YOUR_TOKEN}` for Access Token
 
 > Contact the team to get the token.
 
-run the command below to install all dependencies
+Now you can create a project with this template:
 
 ```
-yarn
+yarn create react-app <project_name> --template frete-boilerplate
 ```
 
 #### Starting project
-
-With all dependencies installed, now you can start the project!
 
 Run in the root directory:
 
